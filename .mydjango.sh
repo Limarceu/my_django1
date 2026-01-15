@@ -15,4 +15,4 @@ ssh-add -l
 echo "✅ Ambiente virtual ativado:"
 
 which python3
-cd '~/proj_LF/my_django'
+

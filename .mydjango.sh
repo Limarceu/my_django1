@@ -8,11 +8,12 @@ source venv/bin/activate
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 
-git init
-git status
 ssh-add -l
 
 echo "✅ Ambiente virtual ativado:"
 
-which python3
+git init
 
+echo "✅ Git iniciado."
+
+git status
